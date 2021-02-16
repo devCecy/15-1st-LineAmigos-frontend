@@ -18,21 +18,21 @@
 
 # 담당 및 구현기능
 
-1. 회원가입 / 유효성 검사 기능 구현
+1. 회원가입 - 유효성 검사 기능 구현
 
-2. 로그인 / access_token를 활용하여 서비스 제한 및 제공여부 구현
+2. 로그인 - access_token를 활용하여 서비스 제한 및 제공여부 구현
 
-3. 상품 리스트페이지 / fetch API를 활용한 Data rendering
+3. 상품 리스트페이지 - fetch API를 활용한 Data rendering
 
-4. 상품 리스트페이지 / 상품 리스트 Pagination 기능 구현
+4. 상품 리스트페이지 - 상품 리스트 Pagination 기능 구현
 
-5. 상품 리스트페이지 / Qurey string을 활용한 filter 기능 구현
+5. 상품 리스트페이지 - Qurey string을 활용한 filter 기능 구현
 
-6. 상품 리스트페이지 / Query string를 사용하여, 상품리스트에서 상세 페이지로 이동
+6. 상품 리스트페이지 - Query string를 사용하여, 상품리스트에서 상세 페이지로 이동
 
-7. 상품 리스트페이지 / Modal창을 이용한 상품 상세 미리보기 기능 구현
+7. 상품 리스트페이지 - Modal창을 이용한 상품 상세 미리보기 기능 구현
 
-8. 상품 리스트페이지 / 드롭다운 메뉴, hover효과, 찜하기 버튼 기능 구현
+8. 상품 리스트페이지 - 드롭다운 메뉴, hover효과, 찜하기 버튼 기능 구현
 
 9. fetch API를 활용한 Data rendering
 
