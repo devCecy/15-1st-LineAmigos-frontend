@@ -18,6 +18,8 @@
 
 # 담당 및 구현기능
 
+- [라인프렌즈 클론 프로젝트 코드정리 바로가기](https://velog.io/@dev_cecy/%EB%9D%BC%EC%9D%B8%ED%94%84%EB%A0%8C%EC%A6%88-%ED%81%B4%EB%A1%A0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0%EB%A1%9D)
+
 1. 회원가입 - 유효성 검사 기능 구현
 
 2. 로그인 - access_token를 활용하여 서비스 제한 및 제공여부 구현
@@ -40,7 +42,7 @@
 
 # 프로젝트 관련 링크
 
-- [라인프렌즈 클론 프로젝트 코드정리 & 회고록 바로가기](https://velog.io/@dev_cecy/%EB%9D%BC%EC%9D%B8%ED%94%84%EB%A0%8C%EC%A6%88-%ED%81%B4%EB%A1%A0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0%EB%A1%9D)
+- [라인프렌즈 클론 프로젝트 회고록 바로가기](https://velog.io/@dev_cecy/%EB%9D%BC%EC%9D%B8%ED%94%84%EB%A0%8C%EC%A6%88-%ED%81%B4%EB%A1%A0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0%EB%A1%9D)
 
 - [라인프렌즈 클론 프로젝트 영상 바로가기 ](https://www.youtube.com/watch?v=-LT4xFDPEIU)
 
