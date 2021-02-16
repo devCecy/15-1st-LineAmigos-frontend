@@ -32,14 +32,15 @@ class ProductList extends Component {
 
   //config파일에 API주소 변수로 담아두었지만, 아래 코드는 작업을 위해 남겨놓았습니다. 머지 후 삭제하겠습니다!
   componentDidMount = () => {
-    fetch(`http://10.168.1.149:8000/product/products_info?limit=${LIMIT}`)
+    // fetch(`http://10.168.1.149:8000/product/products_info?limit=${LIMIT}`)
+     fetch('/data/products_list.json')
       .then((response) => response.json())
       .then((response) => {
         this.setState({
           productArr: response.PRODUCTS,
         })
       })
-
+      
     fetch('http://10.168.1.140:8000/review/reviews')
       .then((response) => response.json())
       .then((response) => {
@@ -72,8 +73,6 @@ class ProductList extends Component {
 
     let updatedPageArr = [...this.state.pageArr]
     updatedPageArr = updatedPageArr.map((item) => {
-      console.log('셀렉어레이', updatedPageArr)
-      console.log('셀렉아이디', item.id)
       if (+offset === item.id) {
         item.selected = !item.selected
         return item
@@ -205,7 +204,6 @@ class ProductList extends Component {
   }
 
   handleClickedProductId = (clickedId) => {
-    console.log('현재 선택된 프로덕트 id: ', clickedId)
     this.setState({
       clickedId,
     })
